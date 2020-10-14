@@ -1,4 +1,3 @@
-
 package br.com.Agenda.Classes;
 
 import java.util.List;
@@ -8,9 +7,10 @@ import java.util.List;
  * @author sosly
  */
 public class Pessoa {
-     private String nome;
-    private List <Telefone> Telefone;
-    
+
+    private String nome;
+    private List<Telefone> Telefone;
+
     public Pessoa() {
         this.nome = nome;
         this.Telefone = Telefone;
@@ -31,5 +31,5 @@ public class Pessoa {
     public void setTelefone(List Telefone) {
         this.Telefone = Telefone;
     }
-    
+
 }

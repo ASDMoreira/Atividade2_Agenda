@@ -1,6 +1,7 @@
 
 package br.com.Agenda.Classes;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,19 +9,27 @@ import java.util.List;
  * @author sosly
  */
 public class Agenda {
-    private List <Pessoa> Pessoa;
+    private List <Pessoa> pessoa;
 
     public Agenda() {
-        this.Pessoa = Pessoa;
+        this.pessoa = pessoa;
     }
     
 
     public List getPessoa() {
-        return Pessoa;
+        return pessoa;
     }
 
     public void setPessoa(List Pessoa) {
-        this.Pessoa = Pessoa;
+        this.pessoa = Pessoa;
+    }
+    
+    public void adicionar(Pessoa nome, Pessoa telefone){
+        pessoa.add(nome);
+        pessoa.add(telefone);
+        
+        
+        
     }
     
 }
